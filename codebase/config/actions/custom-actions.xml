@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listofactions SYSTEM "actions.dtd">
+<listofactions>
+
+   <objecttype name="demo" class="wt.part.WTPart" resourceBundle="demo.DemoResource">
+		<action name="dummy">
+        
+      </action>
+	  <action name="dummyGWT">
+	  </action>
+
+   </objecttype>
+   
+   
+
+
+</listofactions>
