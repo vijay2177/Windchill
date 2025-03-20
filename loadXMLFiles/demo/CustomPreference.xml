@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE NmLoader SYSTEM "standardX10.dtd">
+<NmLoader>
+
+<csvPreferenceCategory handler="wt.preference.LoadPreference.createPreferenceCategory">
+	<csvname>ChangeRequestParentPreference</csvname>
+	<csvparentName></csvparentName>
+	<csvdisplayName>Change Request Preference</csvdisplayName>
+	<csvdescription>This Prefrence will enable to set the preferred need date while creating Change Request</csvdescription>
+</csvPreferenceCategory>
+
+<csvPreferenceDefinition handler="wt.preference.LoadPreference.createPreferenceDefinition">
+<csvname>ChangeRequestAttributeValue</csvname>
+<csvvisibility>SITE</csvvisibility>
+<csvcategoryName>ChangeRequestParentPreference</csvcategoryName>
+<csvdisplayName>Required Date Attribute value for CRQ</csvdisplayName>
+<csvdescription></csvdescription>
+<csvlongDescription>This is the needed date attribute value for change request</csvlongDescription>
+<csvdefaultValue>30</csvdefaultValue>
+ <csvhandler>com.ptc.windchill.enterprise.preference.handler.StringPreferenceValueHandler:</csvhandler>
+</csvPreferenceDefinition>
+
+
+<csvLinkPreferenceClientDefinition handler="wt.preference.LoadPreference.setClientDefinitionLink">
+	<csvname>ChangeRequestAttributeValue</csvname>
+	<csvclientName>WINDCHILL</csvclientName>
+</csvLinkPreferenceClientDefinition>
+
+</NmLoader>

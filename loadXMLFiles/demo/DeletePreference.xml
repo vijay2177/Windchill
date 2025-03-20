@@ -1,0 +1,6 @@
+<?xml version="1.0"?><!DOCTYPE NmLoader SYSTEM "standardX10.dtd">
+<NmLoader>
+<csvDeletePreferenceDefinition handler="wt.preference.LoadPreference.deletePreferenceDefinition">
+<csvname>ChangeRequestAttributeValue</csvname>
+</csvDeletePreferenceDefinition>
+</NmLoader>
